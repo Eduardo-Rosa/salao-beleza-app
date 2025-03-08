@@ -32,3 +32,10 @@ Este é um microsserviço desenvolvido em **Golang** para gerenciar o cadastro d
    ```bash
    git clone https://github.com/seu-usuario/sistema-cadastro-clientes.git
    cd sistema-cadastro-clientes
+
+### Teste
+1. POST
+I![teste POST](https://abrir.link/BxYsa)
+
+2.GET
+I![teste GET](https://abrir.link/nNhYG)
