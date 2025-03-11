@@ -1,0 +1,78 @@
+# Ignorar arquivos de configuração sensíveis
+.env
+*.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar diretórios de dependências
+node_modules/
+vendor/
+.go/
+bin/
+pkg/
+
+# Ignorar arquivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+*.temp
+*.pid
+*.pid.lock
+
+# Ignorar arquivos de build/dist
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.a
+*.o
+
+# Ignorar arquivos específicos do Go
+# Binários e arquivos gerados
+*.exe
+*.test
+*.out
+*.prof
+*.cover
+*.cov
+
+# Ignorar diretórios de cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar arquivos de Docker
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de frontend (Angular)
+dist/
+node_modules/
+*.map
+*.ngsummary.json
+*.ngfactory.ts
+*.ngstyle.ts
+*.ngstyle.js
+*.ngfactory.js
+*.ngsummary.js
